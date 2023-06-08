@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ 
+ body{
+     margin: 0;
+     background-color: #2a0333;
+ }
+  
+ 
+ 
+ h1{ font-size: 2em;}
+ h2{ font-size: 2.2em;}
+ h3{ font-size:  1.2em;}
+ p{ font-size: 1.25em;}
+ ul{ list-style: none;}
+ li{ font-size: 1.25em;}
+ a{ text-decoration: none;}
+
+
+
+.container{
+    width: 85%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+
+/* ______________________________________________________________________________________________ */
+
+.header span{
+    color: white;
+}
+.menu{
+    display: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+}
+
+.header {
+    
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 1.2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+} 
+
+
+.logo{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.9em;
+    letter-spacing: 2px;
+}
+
+
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    transition: all 1s linear;
+    font-family: 'Caveat', cursive;
+}
+
+
+.navigation ul li a:hover{
+    color: blueviolet;
+}
+
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+
+/* ____________________________________________________________________________________ */
+
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(35, 19, 43, 0.425),
+        rgba(61, 27, 61, 0.5)
+    )
+    , url("../img/banner/banner4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    
+    
+}
+
+#first .container{
+    color: white;
+}
+
+#first h3{
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first p{
+    font-family: 'Montserrat';
+}
+
+/* ________________________________________________________________________________________ */
+
+#second {
+    background-color: black;
+}
+
+
+ #second .topSpotify{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#second .container{
+    padding: 100px 12px 40px 12px;
+    width: 100%;
+    max-width: 5000px;
+    margin: 0px auto;
+
+} 
+
+
+#second h2{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+#second p{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+#second .topSpotify p{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Righteous', cursive;
+    
+}
+
+#second 
+.cartaSpotify1, 
+.cartaSpotify2,
+.cartaSpotify3,
+.cartaSpotify4,
+.cartaSpotify5{
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+    margin: 15px 30px;
+    border-radius: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+
+}
+
+.cartaSpotify1  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/spotify/thwknd.jpg");
+    width: 350px ;
+    height: 350px;
+}
+
+.cartaSpotify2  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/spotify/sheeran.jpg");
+    width: 260px ;
+    height: 260px;
+}
+
+
+.cartaSpotify3  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/spotify/swiftt.jpg");
+    width: 260px ;
+    height: 260px;
+}
+
+
+.cartaSpotify4  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/spotify/cyrus.jpg");
+    width: 200px ;
+    height: 200px;
+}
+
+
+.cartaSpotify5  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/spotify/rihanna.jpeg");
+    width: 200px ;
+    height: 200px;
+}
+
+
+
+/* ________________________________________________________________________________________ */
+
+
+
+
+#third .musicGenres{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#third{
+    color: white;
+    text-align: center;
+}
+
+
+#third .container{
+    padding: 0px 12px 80px 12px;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0px auto;
+}
+
+
+
+
+#third h2{
+    margin-top: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(185, 182, 182);
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+}
+
+#third p{
+    margin-top: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(185, 182, 182);
+    font-size: 1.7rem;
+}
+
+
+.verMas{
+    margin-top: 30px;
+}
+
+.verMas a{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 8, 108);
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#third .cartaGenre{
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+    margin: 25px 30px;
+    border-radius: 15px;
+    width: 230px ;
+    height: 400px;
+}
+
+
+
+.musicGenres .cartaGenre:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/genres/cumbia.jpg");
+    
+}
+
+.musicGenres .cartaGenre:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/genres/pop.jpg");
+}
+
+
+.musicGenres .cartaGenre:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/genres/rock.jpg");
+}
+
+.musicGenres .cartaGenre:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/genres/jazz.jpg");
+}
+
+.musicGenres .cartaGenre:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    , url("../img/genres/reggaeton.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____________________________________________________________________________________________ */
+footer{
+    background-color: #201f1f;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+}
+
+
+
+footer .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+}
+
+ footer .footer-container h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin: 0px 0px 15px 0px;
+ }
+
+footer .footer-container p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+footer .socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+footer .socials li{
+    margin: 0 10px;
+}
+
+
+footer .socials a{
+    color: white;
+}
+
+footer .socials a i{
+    font-size: 1.7rem;
+    transition: color .4s ease;
+}
+
+footer .socials a:hover i{
+    color: aqua;
+}
+
+footer .footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+footer .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+/* ________________________________________________________________________________________ */
+
+@media only screen and (max-width: 535px) {
+    
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+    
+    .navigation ul.show {
+        display: block;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.3rem 0rem;
+        transition: all 0.4 linear;
+        border-radius: 5px;
+    }
+
+}
