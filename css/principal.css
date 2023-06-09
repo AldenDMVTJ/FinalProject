@@ -150,13 +150,16 @@
 }
 
 
- #second .topSpotify{
+#second .topSpotify{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     
 }
 
+#second .nomostrar{
+    display: none;
+}
 
 
 #second .container{
@@ -278,6 +281,9 @@
     flex-wrap: wrap;
 }
 
+#third .container .nomostrar{
+    display: none;
+}
 
 #third{
     color: white;
@@ -483,7 +489,7 @@ footer .footer-bottom span{
 
 /* ________________________________________________________________________________________ */
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 735px) {
     
     .menu{
         display: block;
@@ -513,5 +519,127 @@ footer .footer-bottom span{
         transition: all 0.4 linear;
         border-radius: 5px;
     }
+
+    #second .mostrar{
+        display: none;
+    }
+
+    #second .nomostrar{
+        display: flex;
+        
+    }#second .nomostrar p{
+        color: rgba(0, 0, 0, 0);
+        
+    }
+
+    .cartaSpotify1  {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
+        )
+        , url("../img/spotify/thwknd.jpg");
+        width: 140px ;
+        height: 140px;
+    }
+    
+    .cartaSpotify2  {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
+        )
+        , url("../img/spotify/sheeran.jpg");
+        width: 140px ;
+        height: 140px;
+    }
+    
+    
+    .cartaSpotify3  {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
+        )
+        , url("../img/spotify/swiftt.jpg");
+        width: 140px ;
+        height: 140px;
+    }
+    
+    
+    .cartaSpotify4  {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
+        )
+        , url("../img/spotify/cyrus.jpg");
+        width: 140px ;
+        height: 140px;
+    }
+    
+    
+    .cartaSpotify5  {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
+        )
+        , url("../img/spotify/rihanna.jpeg");
+        width: 140px ;
+        height: 140px;
+    }
+
+    #second 
+.cartaSpotify1, 
+.cartaSpotify2,
+.cartaSpotify3,
+.cartaSpotify4,
+.cartaSpotify5{
+    margin: 15px 15px;
+}
+
+
+#third .cartaGenre{
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+    margin: 25px 15px;
+    border-radius: 15px;
+    width: 340px ;
+    height: 160px;
+}
+
+#third .mostrar{
+    display: none;
+}
+
+#third .container .nomostrar{
+    display: flex;
+}
+
+
+footer{
+    padding-top: 20px;
+}
+
+footer .footer-container h3{
+    line-height: 2.5rem;
+    margin: 0px;
+}
+
+footer .footer-container p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+footer .socials{
+    margin: 1rem 0 2rem 0;
+}
 
 }
