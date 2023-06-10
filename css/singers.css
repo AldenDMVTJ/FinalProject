@@ -178,6 +178,9 @@ span{
     font-family: 'Mukta', sans-serif;
 }
 
+#second .nomostrar{
+    display: none;
+}
 
 /* _________________________________________________________________________________ */
 
@@ -214,11 +217,8 @@ span{
     font-family: 'Mukta', sans-serif; 
 }
 
-#third .texto h2{
-    color: white;
-    margin-top: 0px;
-    font-family: 'Mukta', sans-serif; 
-}
+
+
 #third .texto a{
     color: rgb(194, 188, 188);
     margin-top: 0px;
@@ -414,6 +414,7 @@ footer .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    
 }
 
 footer .footer-bottom span{
@@ -464,7 +465,7 @@ footer .footer-bottom span{
 
 
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 735px) {
     
     .menu{
         display: block;
@@ -495,4 +496,28 @@ footer .footer-bottom span{
         border-radius: 5px;
     }
 
+    #second .mostrar{
+        display: none;
+    }
+
+    #second .nomostrar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #second .container .imagen{
+        justify-content: center;
+        display: flex;
+    }
+
+    #second .container .imagen img{
+        width: 90%;
+        height: 50%;
+        border-radius: 15px;
+        margin: 30px 30px 30px 30px;
+    }
+
+    #third .listSinger li{
+        width: 80%;
+    }
 }
