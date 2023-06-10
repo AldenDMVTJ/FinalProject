@@ -1,6 +1,6 @@
-# FinalProyect
+# FinalProject
 
-_LoveMusic Proect:_
+_LoveMusic Project:_
 
 Este proyecto/pagina trata  de mostrar la informacion de la musica, explicar los inicios, de donde salio, y que cantantes estan relacionados a tales generos musicales.
 Esa por lo menos es la idea principal, lo que pude lograr por ahora es una pagina que esta en su fase principal pero aun asi vas a poder encontrar informacion util sobre
