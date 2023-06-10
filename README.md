@@ -24,4 +24,4 @@ singers.css     :   todos los/las cantantes (26)
 
 Despues utilicé una pagina de javaScript para codiar el menu desplegable y el form con respuestas devueltas en la parte de los cantantes como comentarios
 
-La mayoria de las paginas de los cantantes no esta con la completa información, si quiere ver uno con este, visite la pag de Miley Cyrus que ahi si complete los datos y puede visualizar como quedaria.    
+La mayoria de las paginas de los cantantes no esta con la completa información, si quiere ver uno con este, visite la pag de Miley Cyrus que ahi si complete los datos y puede visualizar como quedaria.     
