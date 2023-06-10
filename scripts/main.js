@@ -28,13 +28,13 @@ function comentarioCaja(){
     }
 
     else if(nombre == ""){
-        //si no llena ningun espacio le aparece esta alerta
+        //si no coloca un nombre le aparece esta alerta
         alert("Es necesario que ingrese un nombre")
         document.getElementById("nombre").focus();
     }
 
     else if(mensaje == ""){
-        //si no llena ningun espacio le aparece esta alerta
+        //si no coloca algun comentario le aparece esta alerta
         alert("Es necesario que ingrese un comentario")
         document.getElementById("mensaje").focus();
     }
